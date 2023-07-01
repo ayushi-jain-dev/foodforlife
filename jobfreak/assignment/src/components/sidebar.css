@@ -1,0 +1,67 @@
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #26aac1;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fbf8f8;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #0f0808;
+  transition: all 0.1s ease-in-out;
+  transform: scale(0.91);
+}
+
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+.sidenav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sidenav a {
+  margin-bottom: 40px;
+}
+
+.sidenav img {
+  height: 50px;
+  width: 50px;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+@media (min-width: 768px) {
+  #hamburger {
+    display: none;
+  }
+}
+
+#hamburger {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+
+#hamburger div {
+  width: 30px;
+  height: 3px;
+  background-color: #000;
+  margin: 5px 0;
+}

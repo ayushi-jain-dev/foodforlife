@@ -1,0 +1,38 @@
+.home-section {
+  margin: 100px 0px 200px 200px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 20px;
+}
+
+.card {
+  margin: 30px;
+  width: 18rem;
+  border-radius: 30px;
+  height: 324px;
+  overflow: hidden;
+}
+
+img {
+  object-fit: cover;
+  height: 209px;
+}
+
+a {
+  text-decoration: none;
+  color: #26aac1;
+}
+
+footer {
+  background: black;
+  color: white;
+  /*padding: 9px 20px;*/
+  margin-left: 50px;
+  text-align: center;
+}
